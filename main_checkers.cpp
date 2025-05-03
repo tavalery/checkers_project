@@ -265,7 +265,7 @@ void Game::playGame() {
 }
 
 std::string Game::getUserInput() {
-    std::cout << "Введите ход (a2 b3) или 'exit' для выхода: ";
+    std::cout << "Введите ход или 'exit' для выхода: ";
     std::string input;
     std::getline(std::cin, input);
 
